@@ -63,7 +63,7 @@ test = [
 
 [project.scripts]
 dir_to_json = "dir_to_json:main"
-tracker-doc = "dir_json:dir_to_json_doc"
+dir_json-doc = "dir_json:dir_to_json_doc"
 
 [tool.pytest.ini_options]
 addopts = "-vv --cov --cov-report=html -p no:warnings" 
