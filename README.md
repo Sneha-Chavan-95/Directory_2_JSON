@@ -5,9 +5,11 @@
 This CLI application is designed to convert directory structure to a JSON file.
 
 🖊️ Authors
+
 Sneha Chavan
 
 🥷 Contributor
+
 Adarsh Battu
 
 💻 Create a Virtual Environment
