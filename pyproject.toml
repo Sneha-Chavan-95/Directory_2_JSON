@@ -38,12 +38,6 @@ classifiers = [
     # "Programming Language :: Python :: 3 :: Only",
 ]
 
-dependencies = [
-    "os",
-    "json",
-    "ast",
-    "typing"
-]
 
 [project.urls]
 "source" = "https://github.com/Sneha-Chavan-95/Directory_2_JSON.git"
