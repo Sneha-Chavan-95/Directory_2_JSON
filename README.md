@@ -1,66 +1,80 @@
-# Directory_2_JSON
+🗃️ Directory to JSON
 
-🗃️Directory to JSON
+This Directory to JSON Application is capable of converting the directory structure to JSON structure in a file. 
 
-This CLI application is designed to convert directory structure to a JSON file.
+
 
 🖊️ Authors
 
-Sneha Chavan
+- [Sneha Chavan](https://github.com/Sneha-Chavan-95)
+
+
 
 🥷 Contributor
 
-Adarsh Battu
+- [Adarsh Battu](https://github.com/adarshbattu109)
+
+
+
+
 
 💻 Create a Virtual Environment
 
-# Install the virtualenv module
-pip install virtualenv
+  ```bash
+  # Install the virtualenv module
+  pip install virtualenv
 
-# Create the virtual Environment named venv
-python -m venv venv
-or
-virtualenv venv
+  # Create the virtual Environment named venv
+  python -m venv venv
+  or
+  virtualenv venv
 
-# Activate the Virtual Environment
-venv\Scripts\activate
+  # Activate the Virtual Environment
+  venv\Scripts\activate
+  ```
+
+
 🚀 Install the Application
-
-# Install the Directory 2 JSON app
-pip install -e.
-
+  ```bash
+  # Install the Directory to JSON
+  pip install -e.
+  ```
 
 😎 Install the Extras
 
-pip install -e ".[dev,test]"
-
-
-✔ Running Tests To run the tests, refer the following
+  ```bash
+  pip install -e ".[dev,test]"
+  ```
+✔ Running Tests
+To run the tests, refer the following
 
 ❄ Flake8
 
+```bash
 flake8 src test
-
+```
 
 🧪 Pytest
-
+```bash
 pytest -v
-
+```
 
 💘 mypy
-
+```bash
 mypy src test
-
+```
 
 🧹 pylint
-
+```bash
 pylint src test
-
+```
 
 🦅 vulture
-
+```bash
 vulture src test
+```
 
 
-Features
-Convert the directory structure to JSON file.
+## Features
+
+- Convert the directory structure to JSON format in a file.
